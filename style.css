@@ -1,0 +1,213 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+
+
+.section-one {
+
+    margin: 0%;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 65vh;
+
+
+}
+
+.top-banner {
+    text-align: center;
+    width: 100%;
+
+    padding-top: 7%;
+    color: white;
+
+}
+
+h1 {
+
+    font-size: 50px;
+    text-align: center;
+
+}
+
+#pragraph {
+
+    font-size: 18px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(172, 152, 185), rgb(226, 182, 39), rgb(226, 182, 39));
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+
+}
+
+
+
+.donate-today {
+
+    text-align: center;
+}
+
+.our-plan {
+
+    text-align: center;
+
+
+}
+
+
+
+.card1 {
+
+    width: 300px;
+    height: 300px;
+    border: 3px solid gray;
+    background-color: rgb(217, 231, 231);
+    text-align: center;
+    padding: 6%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    box-shadow: 8px 8px 16px rgb(48, 46, 45);
+
+}
+
+.icon {
+
+    width: 40%;
+    height: 50%;
+
+
+}
+
+.paragraph {
+
+    text-align: justify;
+}
+
+.flex-containar {
+    display: flex;
+}
+
+.form-for monney button {
+    width: 100px;
+    height: 80px;
+}
+
+.button {
+
+    width: 200px;
+    height: 120px;
+    background-color: rgb(252, 252, 252);
+    border-color: aliceblue;
+    margin: 40px;
+    border-radius: 5px;
+    font-size: 50px;
+
+}
+
+#button {
+    width: 200px;
+    height: 120px;
+    background-color: rgb(247, 238, 238);
+    border-color: rgb(238, 6, 87);
+    margin: 40px;
+    border-radius: 5px;
+    font-size: 50px;
+    color: rgb(238, 6, 87);
+
+}
+
+.section-three {
+
+
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+
+
+
+}
+
+.half {
+    width: 80%;
+    height: 100%;
+
+    text-align: justify;
+
+
+
+
+}
+
+.half img {
+    width: 100%;
+
+}
+
+#sec3-h1 {
+
+    text-align: justify;
+    font-size: 60px;
+
+}
+
+.our-updates {
+    text-align: center;
+    font-size: 20px;
+}
+
+#subscribe-button {
+    background-color: brown;
+    font-size: medium;
+
+}
+
+.form {
+
+    width: 40%;
+    height: 250px;
+    background-color: rgb(220, 206, 206);
+    border-color: rgb(21, 22, 22);
+    padding: 5% 5% 2%;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 2%;
+
+    border-radius: 5px;
+
+
+}
+
+#mail-button {
+
+    width: 250px;
+    height: 38px;
+}
+
+#subscribe {
+
+    height: 40px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    height: 160px;
+    padding-top: 4px;
+}
