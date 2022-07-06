@@ -5,33 +5,11 @@ body {
     font-family: 'Mukta', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
-
-
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-
-
-
-.section-one {
-
-    margin: 0%;
-    background-image: url(images/donation13.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 65vh;
-
-
-}
-
-.top-banner {
-    text-align: center;
-    width: 100%;
-
-    padding-top: 7%;
-    color: white;
-
-}
 
 h1 {
 
@@ -40,9 +18,103 @@ h1 {
 
 }
 
-#pragraph {
+.section-one {
+    background: url(images/donation13.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin-top: -30px;
 
-    font-size: 18px;
+}
+
+.top-banner {
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding-top: 200px;
+}
+
+.donate-today {
+
+    text-align: center;
+
+}
+
+
+
+
+.donate-boxes {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.donate-box1 {
+    width: 200px;
+    background-color: rgb(247, 238, 238);
+
+
+    border-radius: 5px;
+    font-size: 50px;
+    color: rgb(91, 83, 85);
+}
+
+.donate-box2 {
+    width: 200px;
+    background-color: rgb(247, 238, 238);
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 50px;
+    color: rgb(238, 6, 87);
+    border: 2px solid rgb(238, 6, 87);
+
+}
+
+.donate-box3 {
+    width: 200px;
+    background-color: rgb(247, 238, 238);
+
+
+    border-radius: 5px;
+    font-size: 50px;
+    color: rgb(91, 83, 85);
+    margin-left: 20px;
+}
+
+.donate-box4 {
+    width: 200px;
+    background-color: rgb(247, 238, 238);
+
+
+    border-radius: 5px;
+    font-size: 50px;
+    color: rgb(91, 83, 85);
+    margin-left: 20px;
+}
+
+.donate-box5 {
+    width: 200px;
+    background-color: rgb(247, 238, 238);
+
+
+    border-radius: 5px;
+    font-size: 50px;
+    color: rgb(91, 83, 85);
+    margin-left: 20px;
+}
+
+
+
+
+#donante-input {
+    border: none;
+    height: 30px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid grey;
+
 }
 
 .link-button {
@@ -55,13 +127,6 @@ h1 {
 
 }
 
-
-
-.donate-today {
-
-    text-align: center;
-}
-
 .our-plan {
 
     text-align: center;
@@ -69,7 +134,23 @@ h1 {
 
 }
 
+.flex-containar {
+    display: flex;
+    justify-content: center;
+}
 
+#pragraph {
+
+    font-size: 18px;
+}
+
+
+
+
+.flex-containar {
+    display: flex;
+    justify-content: center;
+}
 
 .card1 {
 
@@ -79,7 +160,37 @@ h1 {
     background-color: rgb(217, 231, 231);
     text-align: center;
     padding: 6%;
-    margin-left: 4%;
+    margin-left: 20px;
+    margin-bottom: 2%;
+    box-shadow: 8px 8px 16px rgb(48, 46, 45);
+
+}
+
+.card2 {
+
+    width: 300px;
+    height: 300px;
+    border: 3px solid gray;
+    background-color: rgb(217, 231, 231);
+    text-align: center;
+    padding: 6%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 2%;
+    box-shadow: 8px 8px 16px rgb(48, 46, 45);
+
+
+}
+
+.card3 {
+
+    width: 300px;
+    height: 300px;
+    border: 3px solid gray;
+    background-color: rgb(217, 231, 231);
+    text-align: center;
+    padding: 6%;
+    margin-right: 20px;
     margin-bottom: 2%;
     box-shadow: 8px 8px 16px rgb(48, 46, 45);
 
@@ -89,6 +200,7 @@ h1 {
 
     width: 40%;
     height: 50%;
+    margin-top: -60px;
 
 
 }
@@ -98,64 +210,19 @@ h1 {
     text-align: justify;
 }
 
-.flex-containar {
-    display: flex;
-}
-
-.form-for monney button {
-    width: 100px;
-    height: 80px;
-}
-
-.button {
-
-    width: 200px;
-    height: 120px;
-    background-color: rgb(252, 252, 252);
-    border-color: aliceblue;
-    margin: 40px;
-    border-radius: 5px;
-    font-size: 50px;
-
-}
-
-#button {
-    width: 200px;
-    height: 120px;
-    background-color: rgb(247, 238, 238);
-    border-color: rgb(238, 6, 87);
-    margin: 40px;
-    border-radius: 5px;
-    font-size: 50px;
-    color: rgb(238, 6, 87);
-
-}
-
 .section-three {
-
 
     display: flex;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
 
-
-
 }
 
 .half {
-    width: 80%;
+    width: 60%;
     height: 100%;
-
     text-align: justify;
-
-
-
-
-}
-
-.half img {
-    width: 100%;
 
 }
 
@@ -166,16 +233,37 @@ h1 {
 
 }
 
+.donation-img {
+    margin-left: 40px;
+    width: 80%;
+}
+
+
 .our-updates {
     text-align: center;
     font-size: 20px;
 }
 
-#subscribe-button {
-    background-color: brown;
-    font-size: medium;
 
-}
+
+
+
+
+
+/* .button {
+
+    width: 200px;
+    height: 120px;
+    background-color: rgb(252, 252, 252);
+    border-color: aliceblue;
+    margin: 40px;
+    border-radius: 5px;
+    font-size: 50px;
+    text-align: center;
+} */
+
+
+
 
 .form {
 
@@ -183,26 +271,38 @@ h1 {
     height: 250px;
     background-color: rgb(220, 206, 206);
     border-color: rgb(21, 22, 22);
-    padding: 5% 5% 2%;
+    margin: 0 auto;
+
     text-align: center;
-    margin-left: 25%;
-    margin-bottom: 2%;
+}
 
-    border-radius: 5px;
 
+
+#subscribe-button {
+
+    font-size: medium;
 
 }
 
-#mail-button {
 
+
+
+
+
+
+#mail {
+    font-size: 20px;
+    border: none;
     width: 250px;
-    height: 38px;
+    height: 40px;
 }
 
 #subscribe {
-
+    background-color: brown;
+    border: none;
     height: 40px;
     font-size: 20px;
+    margin-top: 100px;
 }
 
 .footer {
